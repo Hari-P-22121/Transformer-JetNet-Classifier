@@ -79,25 +79,11 @@ Accuracy and loss over epochs:
 
 ![Confusion Matrix](Figure_2.png)
 
----
-
-## Comparison with Other Models
-
-- **Simple baselines (MLPs, CNN jet images):** ~60–70% accuracy  
-- **PFN / EFN (2019):** ~73–75%  
-- **This model:** ~**75.6%** (competitive with PFNs)  
-- **ParticleNet (2019, GNN):** ~77–80%  
-- **ParT (2022, Transformer):** ~80–85%  
 
 ---
 
-## 📁 Repository Structure
+## Conclusion
 
-```bash
-.
-├── jetnet.py                    # Main training script
-├── jetnet_model_upgraded.keras  # Saved trained model
-├── requirements.txt             # Python dependencies
-├── Figure_1.png                 # Training curves (accuracy/loss)
-├── Figure_2.png                 # Confusion matrix
-└── README.md                    # Project documentation
+This work shows that a relatively lightweight transformer-style architecture with attention pooling and channel reweighting can reach solid performance on the JetNet dataset.  
+While not state of the art compared to larger graph or transformer models, it provides a clear, reproducible baseline and demonstrates how modern deep learning ideas can be applied to high-energy physics data.  
+It can serve as a starting point for further exploration, whether for research, coursework, or portfolio purposes.
