@@ -1,7 +1,7 @@
 # JetNet Attention-Based Jet Classifier
 
 This project implements a deep learning model to classify particle jets using the [JetNet dataset](https://zenodo.org/record/6975118).  
-The model applies transformer-style layers (multi-head self-attention, pooling by multi-head attention) to sets of particle features, making it naturally suited for the unordered structure of jets.  
+The model incorporates transformer-style layers (multi-head self-attention, pooling by multi-head attention) to sets of particle features, making it naturally suited for the unordered structure of jets.  
 
 ---
 
@@ -26,7 +26,7 @@ The model processes jets of shape `(30, 4)` using:
 
 - **Input embedding**: Dense layer with GELU activation  
 - **Transformer encoder blocks**:  
-  - Multi-Head Self-Attention (MHSA)  
+  - Multi-Head-Attention
   - Pre-Norm Layer Normalization  
   - Residual connections  
   - Feed-forward MLP with GELU  
