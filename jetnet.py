@@ -147,7 +147,7 @@ def main():
         verbose=1,
     )
 
-    model.save("jetnet_model_upgraded.keras")
+    model.save("jetnet_model.keras")
 
     # training curves
     plt.figure(figsize=(10, 4))
