@@ -86,4 +86,4 @@ Accuracy and loss over epochs:
 
 This work shows that a relatively lightweight transformer-style architecture with attention pooling and channel reweighting can reach solid performance on the JetNet dataset.  
 While not state of the art compared to larger graph or transformer models, it provides a clear, reproducible baseline and demonstrates how modern deep learning ideas can be applied to high-energy physics data.  
-It can serve as a starting point for further exploration, whether for research, coursework, or portfolio purposes.
+It can serve as a starting point for further exploration including research.
